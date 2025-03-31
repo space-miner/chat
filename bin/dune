@@ -1,0 +1,9 @@
+(executable
+ (name client)
+ (public_name client)
+ (libraries lwt lwt.unix lib))
+
+(executable
+ (name server)
+ (public_name server)
+ (libraries lwt lwt.unix lib))

@@ -1,0 +1,7 @@
+(library
+ (name lib)
+ (libraries lwt lwt.unix)
+ (modules message message_handler)
+ (inline_tests)
+ (preprocess
+  (pps ppx_inline_test)))
